@@ -1,0 +1,268 @@
+.htmml {
+    box-sizing: border-box;
+    width: 1536px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body:not(.is-tabbed-bev) * {
+    outline: 0 !important;
+}
+
+#accelerator-page {
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+div {
+    display: block;
+}
+
+/* img{
+    border: 0;
+}
+ */
+.box .box-content {
+    background-size: cover;
+}
+
+.feature-container>.share-download {
+    margin-left: auto
+}
+
+.billboard {
+    height: auto;
+    min-height: 150px;
+    overflow: hidden
+}
+
+.component-content {
+    left: 7%;
+    right: 7%;
+    text-align: left;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.billboard-paragraph-text {
+    position: absolute !important;
+}
+
+.billboard-paragraph-block {
+    position: relative;
+    width: auto;
+    text-align: left !important;
+}
+
+.claim-part-1 {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: color .24s;
+    font-size: 48px;
+    line-height: 54px;
+}
+
+.claim-part-2 {
+    display: inline-block;
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: color .24s;
+    font-size: 26px;
+    line-height: 34px;
+    cursor: pointer;
+}
+
+.column-left {
+    float: left;
+    width: 50%;
+}
+
+.column-right {
+    float: right;
+    width: 50%;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.image-coption {
+    position: absolute;
+    
+}
+
+
+div.polaroid {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin-bottom: 25px; */
+}
+
+div.containerr {
+    text-align: center;
+    padding: 5px 20px;
+    /* text-align:  1.7rem; */
+}
+
+div.containerr a {
+    text-decoration: none;
+    color: #21087e;
+}
+
+.position-z-index{
+    z-index: auto;
+}
+
+#paw {
+    float: right;
+}
+
+#pow {
+    float: left;
+}
+
+#opis {
+    width: 50%;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 1.14rem;
+}
+
+#opis-right {
+    width: 50%;
+    float: right;
+    padding-right: 20px;
+    font-size: 1.14rem;
+}
+
+#opis-up {
+    width: 50%;
+    padding: 25px 30px 10px 70px;
+    /* góra, prawo, dól, lewo */
+    font-size: 2rem;
+}
+
+#kontakt {
+    text-align: center;
+}
+
+/*-------------------------------------*/
+header {
+    color: #fff;
+    /* text-align: center;
+    padding: 2rem; */
+    /* background-color: aqua;*/
+}
+
+.heaad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+    /*height: auto;*/
+    /* padding-left: 8rem;; */
+}
+
+.name {
+    position: absolute;
+    /*fixed;*/
+    padding-left: 2rem;
+    color: #21087e;
+    font-size: 2rem;
+}
+
+.menu ul {
+    /* */
+    display: inline-block;
+    vertical-align: middle;
+    height: 4.8rem;
+    width: 24.8rem;
+    margin-right: 10px;
+
+}
+
+.table-cennik-styles{
+    vertical-align: top; 
+    text-align: left; 
+    padding: 5px 14px 5px 14px;
+    border-bottom: 1px dashed rgb(204,204,204);
+}
+
+.b-standard-content-wrapper{
+    padding-bottom: 2em;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+}
+
+.col-md-12{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#menu a {
+    text-decoration: none;
+    /* */
+    padding: 2rem;
+    color: rgb(77, 3, 7);
+    font-size: 1.3rem;
+}
+
+
+/* header h1, header span {
+    padding-left: 14.5rem;
+    
+    margin-bottom: 20px;
+    color: black;
+} */
+#strona-glówna {
+    float: right;
+    padding-right: 3rem;
+}
+
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 70px;
+    color: #21087e;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    color: #21087e;
+}
+
+#meny {
+    /* display: inline; */
+    color: rgb(77, 37);
+    text-align: 2.7rem;
+    height: 74px;
+}
